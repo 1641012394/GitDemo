@@ -83,4 +83,10 @@ public class EntryController {
 		
 		return ticketRepository.getAllTicketIdName();
 	}
+	@GetMapping("/getAllTicketIdAndName")
+	public List<CustomResponse> getAllTicketIdAndName(){
+
+
+		return ticketRepository.getAllTicketIdName();
+	}
 }
